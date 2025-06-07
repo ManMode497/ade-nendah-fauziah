@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kedai Harmoni Senja</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Harmoni<span>Senja</span></a>
+      <div class="nav-links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <a href="#cart" class="cart-icon"><i data-feather="shopping-cart"></i></a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <h1>Manisnya Momen di <span>Harmoni Senja</span></h1>
+        <p>Secangkir rasa dan sepiring cerita di setiap hidangan kami</p>
+        <a href="#menu" class="btn">Lihat Menu</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>Tentang <span>Kami</span></h2>
+        <div class="about-content">
+          <img src="https://i.imgur.com/ZlHTdig.jpeg" alt="Tentang Kami" />
+          <div>
+            <p>Kami menyajikan dessert dengan penuh cinta, untuk setiap hati yang butuh ketenangan dan senyum yang sederhana.</p>
+            <p>Setiap gigitan adalah pelukan hangat — dari kami, untukmu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container">
+        <h2>Menu <span>Spesial</span></h2>
+        <div class="menu-grid">
+          <article class="menu-item">
+            <img src="https://i.imgur.com/wkiyJs2.jpeg" alt="Cheesecake" />
+            <h3>Cheesecake</h3>
+            <p>IDR 25K</p>
+          </article>
+          <article class="menu-item">
+            <img src="https://i.imgur.com/4cwHOmJ.jpeg" alt="Ice Cream" />
+            <h3>Ice Cream</h3>
+            <p>IDR 20K</p>
+          </article>
+          <article class="menu-item">
+            <img src="https://i.imgur.com/wOi6nM2.jpeg" alt="Pancake" />
+            <h3>Pancake</h3>
+            <p>IDR 20K</p>
+          </article>
+          <article class="menu-item">
+            <img src="https://i.imgur.com/tXaliyW.jpeg" alt="Tart" />
+            <h3>Tart</h3>
+            <p>IDR 20K</p>
+          </article>
+          <article class="menu-item">
+            <img src="https://i.imgur.com/9Jg043r.jpeg" alt="Waffle" />
+            <h3>Waffle</h3>
+            <p>IDR 25K</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Kontak <span>Kami</span></h2>
+        <form>
+          <input type="text" placeholder="Nama" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Pesanmu..." required></textarea>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kedai Harmoni Senja. Dibuat dengan 💕 oleh adenendahfauziah</p>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
